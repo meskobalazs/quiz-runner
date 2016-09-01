@@ -11,13 +11,15 @@ quiz_runner_SOURCES = main.vala $(BUILT_SOURCES)
 quiz_runner_VALAFLAGS = \
 	--pkg glib-2.0 \
 	--pkg posix \
-	--pkg gtk+-3.0
+	--pkg gtk+-3.0 \
+	--pkg gmodule-2.0
 
 quiz_runner_CPPFLAGS = \
 	`pkg-config --cflags gtk+-3.0 glib-2.0` \
 	$(AM_CPPFLAGS)
 
 quiz_runner_LDFLAGS = \
+	-rdynamic \
 	`pkg-config --libs gtk+-3.0 glib-2.0` \
 	$(AM_LDFLAGS)
 
