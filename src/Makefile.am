@@ -1,6 +1,12 @@
 bin_PROGRAMS = quiz-runner
 
-quiz_runner_SOURCES = main.vala
+RESOURCES_FILE = $(top_builddir)/data/quiz-runner.gresource.xml
+BUILT_SOURCES = resources.c
+
+resources.c: $(RESOURCES_FILE) $(shell $(GLIB_COMPILE_RESOURCES) --generate-dependencies --sourcedir=$(top_srcdir)/data/ $(top_srcdir)/data/quiz-runner.gresource.xml)
+	$(AM_V_GEN) $(GLIB_COMPILE_RESOURCES) --target=$@ --sourcedir=$(top_srcdir)/data/ --generate-source $<
+
+quiz_runner_SOURCES = main.vala $(BUILT_SOURCES)
 
 quiz_runner_VALAFLAGS = \
 	--pkg glib-2.0 \

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/hu/meskobalazs/quiz-runner">
+    <file preprocess="xml-stripblanks">main-window.ui</file>
+  </gresource>
+</gresources>
