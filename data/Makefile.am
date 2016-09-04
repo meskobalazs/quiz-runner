@@ -1,5 +1,9 @@
-# uidir = $(datadir)/quiz-runner
+EXTRA_DIST = $(icons_DATA)
 
-# ui_DATA = main.glade
+iconsdir = $(datadir)/icons/hicolor/scalable/apps
+icons_DATA = quiz-runner.svg
+
+desktopdir = $(datadir)/applications
+dist_desktop_DATA = quiz-runner.desktop
 
 -include $(top_srcdir)/git.mk
