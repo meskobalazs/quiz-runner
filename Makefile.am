@@ -2,9 +2,19 @@ SUBDIRS = \
 	data \
 	po \
 	src \
+	vapi \
 	$(NULL)
 
-EXTRA_DIST = AUTHORS
+EXTRA_DIST = AUTHORS \
+	intltool-extract.in \
+	intltool-update.in \
+	intltool-merge.in
+
+DISTCLEANFILES = \
+        intltool-extract \
+        intltool-update \
+        intltool-merge \
+        po/.intltool-merge-cache
 
 AUTHORS:
 	$(AM_V_GEN)if test -d "$(srcdir)/.git"; \

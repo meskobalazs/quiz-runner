@@ -6,11 +6,20 @@ BUILT_SOURCES = resources.c
 resources.c: $(GRESOURCES_FILE) $(shell $(GLIB_COMPILE_RESOURCES) --generate-dependencies --sourcedir=$(top_srcdir)/data/ $(top_srcdir)/data/quiz-runner.gresource.xml)
 	$(AM_V_GEN) $(GLIB_COMPILE_RESOURCES) --target=$@ --sourcedir=$(top_srcdir)/data/ --generate-source $<
 
-quiz_runner_SOURCES = quiz-runner.vala \
+quiz_runner_SOURCES = \
+	quiz-runner.vala \
 	quiz-runner-window.vala \
 	$(BUILT_SOURCES)
 
+INCLUDES = \
+	-include config.h \
+	-DLOCALEDIR=\""$(localedir)"\" \
+	-DPKGDATADIR=\""$(pkgdatadir)"\" \
+	-DPKGLIBDIR=\""$(pkglibdir)"\"
+
 quiz_runner_VALAFLAGS = \
+	--vapidir=$(top_srcdir)/vapi \
+	--pkg config \
 	--pkg glib-2.0 \
 	--target-glib=2.38 \
 	--pkg posix \

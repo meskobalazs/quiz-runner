@@ -111,9 +111,12 @@ AC_CONFIG_FILES([
 
 	src/Makefile
 
+	vapi/Makefile
+
 	data/Makefile
 
 	po/Makefile.in
+
 ],[],
 [API_VERSION='$API_VERSION'])
 AC_OUTPUT
