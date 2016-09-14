@@ -86,13 +86,13 @@
      inkscape:pageshadow="2"
      inkscape:zoom="8"
      inkscape:cx="20.415426"
-     inkscape:cy="21.407562"
-     inkscape:current-layer="g3383"
+     inkscape:cy="26.407562"
+     inkscape:current-layer="text9426"
      showgrid="true"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
-     inkscape:window-width="1600"
-     inkscape:window-height="836"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
@@ -106,7 +106,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -138,19 +138,16 @@
       <g
          style="display:inline;opacity:0.8;fill:#ffffff"
          id="g9434"
-         transform="matrix(1.1045297,0,0,1.1045297,-328.58852,-64.783402)">
-        <text
-           xml:space="preserve"
+         transform="matrix(1.1045297,0,0,1.1045297,-328.58852,-64.897492)">
+        <g
+           transform="scale(1.025818,0.97483179)"
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.82506943px;font-family:FreeSans;-inkscape-font-specification:'FreeSans Bold';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none"
-           x="303.52911"
-           y="89.502594"
-           id="text9426"
-           transform="scale(1.025818,0.97483179)"><tspan
-             sodipodi:role="line"
-             id="tspan9428"
-             x="303.52911"
-             y="89.502594"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.45771599px;font-family:'Linux Libertine O';-inkscape-font-specification:'Linux Libertine O';fill:#ffffff">?</tspan></text>
+           id="text9426">
+          <path
+             d="m 301.82124,80.08878 c 0,-0.493731 0.65831,-0.888716 1.5964,-0.888716 0.93809,0 1.56348,0.93809 1.56348,2.007841 0,0.773513 -0.24686,1.250787 -0.90517,1.859722 -1.06975,0.971005 -1.15204,1.942011 -1.15204,2.649692 l 0,0.757055 c 0,0.115204 0.13166,0.164577 0.26332,0.164577 0.13166,0 0.27978,-0.04937 0.27978,-0.164577 l 0,-0.724139 c 0,-0.394985 0.0165,-0.789971 0.23041,-1.201414 0.14812,-0.279781 0.47727,-0.543104 0.8558,-0.822885 0.77351,-0.559563 1.79389,-1.283702 1.79389,-2.583862 0,-1.497652 -1.08621,-2.485115 -2.76489,-2.485115 -0.87226,0 -1.56349,0.230408 -2.04076,0.641851 -0.49373,0.394985 -0.83934,0.855801 -0.83934,1.481195 0,0.57602 0.41144,0.707681 0.67476,0.707681 0.3127,0 0.64185,-0.197492 0.64185,-0.57602 0,-0.21395 -0.0329,-0.312696 -0.0987,-0.394985 -0.0658,-0.08229 -0.0987,-0.181035 -0.0987,-0.427901 z m 0.49373,8.706132 c 0,0.477274 0.39499,0.872259 0.87226,0.872259 0.47727,0 0.87226,-0.394985 0.87226,-0.872259 0,-0.477274 -0.39499,-0.872259 -0.87226,-0.872259 -0.47727,0 -0.87226,0.394985 -0.87226,0.872259 z"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.45771599px;font-family:'Linux Libertine O';-inkscape-font-specification:'Linux Libertine O';fill:#ffffff"
+             id="path3359" />
+        </g>
       </g>
     </g>
   </g>
