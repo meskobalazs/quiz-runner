@@ -10,11 +10,13 @@ GTK+-based quiz runner application
 
 The following command must be run to install the neccessary dependencies:
 
-    sudo dnf install libtool glib-devel gtk3-devel gettext-devel
+    sudo dnf install libtool glib-devel gtk3-devel gettext-devel valac
 
 #### Raspberry Pi 3
 
-TODO
+The following command must be run to install the necessary dependencies:
+
+    sudo apt-get install autotools-dev automake autopoint libtool libglib2.0-dev libgtk-3-dev gettext valac
 
 ### Compilation and install
 
