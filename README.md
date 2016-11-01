@@ -22,6 +22,6 @@ The following command must be run to install the necessary dependencies:
 
 This is done the usual way:
 
-    ./configure
+    sh autogen.sh
     make
     sudo make install
