@@ -11,7 +11,7 @@ quiz_runner_SOURCES = \
 	quiz-runner-window.vala \
 	$(BUILT_SOURCES)
 
-INCLUDES = \
+AM_CPPFLAGS = \
 	-include config.h \
 	-DLOCALEDIR=\""$(localedir)"\" \
 	-DPKGDATADIR=\""$(pkgdatadir)"\" \

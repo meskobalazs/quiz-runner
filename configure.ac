@@ -91,8 +91,10 @@ dnl ***********************************************************************
 dnl Check for required packages
 dnl ***********************************************************************
 GLIB_REQUIRED=2.42
+GTK_REQUIRED=3.14
 PKG_CHECK_MODULES(QUIZ_RUNNER, [glib-2.0 >= $GLIB_REQUIRED])
 PKG_CHECK_MODULES(QUIZ_RUNNER, [gio-2.0 >= $GLIB_REQUIRED])
+PKG_CHECK_MODULES(QUIZ_RUNNER, [gtk+-3.0 >= $GTK_REQUIRED])
 
 
 dnl ***********************************************************************
