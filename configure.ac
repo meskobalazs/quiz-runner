@@ -39,15 +39,6 @@ dnl Initialize automake
 dnl ***********************************************************************
 AM_SILENT_RULES([yes])
 AM_INIT_AUTOMAKE([1.11 foreign subdir-objects tar-ustar no-dist-gzip dist-xz -Wno-portability])
-AM_MAINTAINER_MODE([enable])
-AX_GENERATE_CHANGELOG
-
-
-dnl ***********************************************************************
-dnl Add extra debugging with --enable-debug and --enable-compile-warnings
-dnl ***********************************************************************
-AX_CHECK_ENABLE_DEBUG([no],[]
-                      [G_DISABLE_ASSERT G_DISABLE_CHECKS G_DISABLE_CAST_CHECKS])
 
 
 dnl ***********************************************************************
@@ -71,20 +62,11 @@ AC_PATH_PROG([GLIB_MKENUMS],[glib-mkenums])
 AC_PATH_PROG([GLIB_COMPILE_RESOURCES],[glib-compile-resources])
 PKG_PROG_PKG_CONFIG([0.22])
 GLIB_GSETTINGS
-GOBJECT_INTROSPECTION_CHECK([1.42.0])
 AM_PROG_VALAC([0.32])
 VAPIGEN_CHECK
 
 
 AX_COMPILER_FLAGS
-
-
-dnl ***********************************************************************
-dnl Ensure C11 is Supported
-dnl ***********************************************************************
-AX_CHECK_COMPILE_FLAG([-std=gnu11],
-                      [CFLAGS="$CFLAGS -std=gnu11"],
-                      [AC_MSG_ERROR([C compiler cannot compile GNU C11 code])])
 
 
 dnl ***********************************************************************
