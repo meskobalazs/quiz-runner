@@ -31,21 +31,14 @@ AUTHORS:
 		     echo Failed to generate $@ >&2 ); \
 	else touch $@; fi
 
-# Generate the ChangeLog.
-@GENERATE_CHANGELOG_RULES@
-dist-hook: dist-ChangeLog
-
 GITIGNOREFILES = \
 	**/*.swp \
 	*.o \
 	aclocal.m4 \
 	build-aux \
-	ChangeLog \
 	config \
 	config.h.in \
 	gtk-doc.m4 \
 	gtk-doc.make \
 	INSTALL \
 	$(NULL)
-
--include $(top_srcdir)/git.mk

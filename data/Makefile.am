@@ -13,5 +13,3 @@ EXTRA_DIST = \
 CLEANFILES = \
 	$(desktop_DATA) \
 	quiz-runner.desktop
-
--include $(top_srcdir)/git.mk
