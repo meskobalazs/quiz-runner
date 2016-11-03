@@ -6,10 +6,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: quiz-runner 0.1.0\n"
-"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?product=quiz-"
-"runner\n"
-"POT-Creation-Date: 2016-11-01 18:01+0100\n"
-"PO-Revision-Date: 2016-11-01 18:03+0100\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-11-03 19:11+0100\n"
+"PO-Revision-Date: 2016-11-03 19:16+0100\n"
 "Last-Translator: Meskó Balázs <meskobalazs@gmail.com>\n"
 "Language-Team: Hungarian\n"
 "Language: hu\n"
@@ -19,22 +18,30 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 1.8.8\n"
 
-#: src/quiz-runner-window.vala:31
-msgid "Copyright 2016 Balázs Meskó"
-msgstr "Copyright 2016 Meskó Balázs"
-
-#: src/quiz-runner-window.vala:42
-msgid "translator-credits"
-msgstr "Meskó Balázs <meskobalazs at fedoraproject dot org>"
-
-#: src/quiz-runner-window.vala:43
+#: ../data/main-window.ui.h:1 ../src/quiz-runner-window.vala:43
 msgid "Quiz Runner"
 msgstr "Kvíz futtató"
 
-#: src/quiz-runner-window.vala:44
+#: ../data/main-window.ui.h:2
+msgid "_File"
+msgstr "_Fájl"
+
+#: ../data/main-window.ui.h:3
+msgid "_Help"
+msgstr "_Súgó"
+
+#: ../src/quiz-runner-window.vala:31
+msgid "Copyright 2016 Balázs Meskó"
+msgstr "Copyright 2016 Meskó Balázs"
+
+#: ../src/quiz-runner-window.vala:42
+msgid "translator-credits"
+msgstr "Meskó Balázs <meskobalazs at fedoraproject dot org>"
+
+#: ../src/quiz-runner-window.vala:44
 msgid "About Quiz Runner"
 msgstr "A Kvíz futtató névjegye"
 
-#: src/quiz-runner-window.vala:45
+#: ../src/quiz-runner-window.vala:45
 msgid "Quiz Runner Application"
 msgstr "Kvíz futtató alkalmazás"
