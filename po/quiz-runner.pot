@@ -1,14 +1,15 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR Meskó Balázs
+# This file is distributed under the same license as the quiz-runner package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-03 19:11+0100\n"
+"Project-Id-Version: quiz-runner 0.1.0\n"
+"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?product=quiz-"
+"runner\n"
+"POT-Creation-Date: 2016-11-03 20:16+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,30 +18,39 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../data/main-window.ui.h:1 ../src/quiz-runner-window.vala:43
+#: data/main-window.ui:9 data/quiz-runner.desktop.in:5
+#: src/quiz-runner-window.vala:43
 msgid "Quiz Runner"
 msgstr ""
 
-#: ../data/main-window.ui.h:2
+#: data/main-window.ui:27
 msgid "_File"
 msgstr ""
 
-#: ../data/main-window.ui.h:3
+#: data/main-window.ui:51
 msgid "_Help"
 msgstr ""
 
-#: ../src/quiz-runner-window.vala:31
+#: data/quiz-runner.desktop.in:6
+msgid "Quiz runner application"
+msgstr ""
+
+#: data/quiz-runner.desktop.in:8
+msgid "quiz-runner"
+msgstr ""
+
+#: src/quiz-runner-window.vala:31
 msgid "Copyright 2016 Balázs Meskó"
 msgstr ""
 
-#: ../src/quiz-runner-window.vala:42
+#: src/quiz-runner-window.vala:42
 msgid "translator-credits"
 msgstr ""
 
-#: ../src/quiz-runner-window.vala:44
+#: src/quiz-runner-window.vala:44
 msgid "About Quiz Runner"
 msgstr ""
 
-#: ../src/quiz-runner-window.vala:45
+#: src/quiz-runner-window.vala:45
 msgid "Quiz Runner Application"
 msgstr ""

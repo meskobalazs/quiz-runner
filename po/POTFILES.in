@@ -1,4 +1,6 @@
-[encoding: UTF-8]
-[type: gettext/glade]data/main-window.ui
+# List of source files containing translatable strings.
+# Please keep this file sorted alphabetically.
+data/main-window.ui
+data/quiz-runner.desktop.in
 src/quiz-runner.vala
 src/quiz-runner-window.vala
