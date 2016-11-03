@@ -11,6 +11,8 @@
 /*~
 /.*.sw[nop]
 /.dirstamp
+/ABOUT-NLS
+/CONTRIBUTING.md
 /ChangeLog
 /GPATH
 /GRTAGS
@@ -20,6 +22,7 @@
 /INSTALL
 /Makefile
 /Makefile.in
+/NEWS
 /TAGS
 /aclocal.m4
 /autom4te.cache
