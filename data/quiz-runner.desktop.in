@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=Quiz Runner
+Comment=Quiz runner application
+Exec=quiz-runner
+Icon=quiz-runner
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;
