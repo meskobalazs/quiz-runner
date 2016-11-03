@@ -20,8 +20,8 @@
 /ID
 /INSTALL
 /m4
-/Makefile
-/Makefile.in
+*Makefile
+*Makefile.in
 /TAGS
 /aclocal.m4
 /autom4te.cache
@@ -29,6 +29,7 @@
 /config
 /config.*
 /configure*
+/data/quiz-runner.desktop
 /gtk-doc.*
 /intltool-*
 /libtool
@@ -47,7 +48,8 @@
 /po/quiz-runner.pot
 /po/stamp-*
 /so_locations
+/src/*.c
+/src/*.stamp
+/src/quiz-runner
 /stamp-h1
 /tags
-/vapi/Makefile
-/vapi/Makefile.in
