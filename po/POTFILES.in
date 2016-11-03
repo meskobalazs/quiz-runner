@@ -1,2 +1,4 @@
+[encoding: UTF-8]
+[type: gettext/glade]data/main-window.ui
 src/quiz-runner.vala
 src/quiz-runner-window.vala
