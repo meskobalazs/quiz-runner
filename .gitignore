@@ -57,6 +57,7 @@
 /po/POTFILES
 /po/Rules-quot
 /po/stamp-*
+/po/remove-potcdate.*
 /so_locations
 /stamp-h1
 /tags
