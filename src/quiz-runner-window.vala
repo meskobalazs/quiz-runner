@@ -15,7 +15,6 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-
 [GtkTemplate (ui = "/hu/meskobalazs/quiz-runner/main-window.ui")]
 public class QuizRunnerWindow : Gtk.ApplicationWindow {
 
@@ -30,10 +29,10 @@ public class QuizRunnerWindow : Gtk.ApplicationWindow {
 	public void about_dialog () {
 		var copyright = _("Copyright 2016 Balázs Meskó");
 		string[] artists = {
-			"Balázs Meskó <meskobalazs at gmail dot com>"
+			_("Balázs Meskó <meskobalazs at fedoraproject dot org>")
 		};
 		string[] authors = {
-			"Balázs Meskó <meskobalazs at gmail dot com>"
+			_("Balázs Meskó <meskobalazs at fedoraproject dot org>")
 		};
 
 		Gtk.show_about_dialog (this,

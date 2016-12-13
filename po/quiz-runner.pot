@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Meskó Balázs
+# Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the quiz-runner package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: quiz-runner 0.1.0\n"
 "Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?product=quiz-"
 "runner\n"
-"POT-Creation-Date: 2016-11-03 20:16+0100\n"
+"POT-Creation-Date: 2016-12-13 23:23+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: data/main-window.ui:9 data/quiz-runner.desktop.in:5
-#: src/quiz-runner-window.vala:43
+#: src/quiz-runner-window.vala:42
 msgid "Quiz Runner"
 msgstr ""
 
@@ -39,18 +39,22 @@ msgstr ""
 msgid "quiz-runner"
 msgstr ""
 
-#: src/quiz-runner-window.vala:31
+#: src/quiz-runner-window.vala:30
 msgid "Copyright 2016 Balázs Meskó"
 msgstr ""
 
-#: src/quiz-runner-window.vala:42
+#: src/quiz-runner-window.vala:32 src/quiz-runner-window.vala:35
+msgid "Balázs Meskó <meskobalazs at fedoraproject dot org>"
+msgstr ""
+
+#: src/quiz-runner-window.vala:41
 msgid "translator-credits"
 msgstr ""
 
-#: src/quiz-runner-window.vala:44
+#: src/quiz-runner-window.vala:43
 msgid "About Quiz Runner"
 msgstr ""
 
-#: src/quiz-runner-window.vala:45
+#: src/quiz-runner-window.vala:44
 msgid "Quiz Runner Application"
 msgstr ""
